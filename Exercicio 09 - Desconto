@@ -1,0 +1,34 @@
+programa
+{
+	funcao inicio()
+	{
+	
+		real produto1
+    real produto2
+    real produto3
+    real valorTotal
+    real desconto
+    real valorFinal
+
+		escreva("Digite o valor dos 3 produtos que você comprou.")
+		escreva("\nDigite o valor do 1º produto: ")
+		leia(produto1)
+    escreva("\Digite o valor do 2º produto: ")
+		leia(produto2)
+    escreva("\Digite o valor do 3º produto: ")
+		leia(produto3)
+
+    valorTotal = produto1 + produto2 + produto3
+
+		escreva("\nO valor total da compra sem desconto foi: R$" , valorTotal)
+
+    desconto = valorTotal*0.2
+
+    escreva("\nSeu desconto foi: R$" , desconto)
+
+    valorFinal = valorTotal-desconto
+
+    escreva("\nO valor final com desconto foi: R$" , valorFinal)
+	}
+		
+}

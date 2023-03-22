@@ -1,1 +1,24 @@
+programa
+{
+	funcao inicio()
+	{
+		cadeia nome
+		real valorSalario
+    real quantidadeDeHora
+    real valorHora
 
+		escreva("Digite respectivamente seu nome, o valor do seu salário e a quantidade de horas trabalhadas por dia, para calcularmos o valor da sua hora trabalhada.")
+		escreva("\nDigite seu nome: ")
+		leia(nome)
+		escreva("\nDigite seu salário: ")
+		leia(valorSalario)
+    escreva("\nDigite a quantidade de horas trabalhadas por dia: ")
+    leia(quantidadeDeHora)
+
+    valorHora = valorSalario/quantidadeDeHora*30
+
+    escreva("\n" ,nome, ", o valor da sua hora trabalhada é de: R$ ", valorHora , )
+    
+	}
+		
+}

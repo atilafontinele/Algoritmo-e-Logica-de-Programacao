@@ -4,41 +4,21 @@ programa
 	funcao inicio()
 	{
 		cadeia nomeAluno
-		inteiro notaExer
-		inteiro notaTrabalho
+		inteiro notaTrabalhos
+		inteiro notaExercicios
 		inteiro notaProva
 		real media
 
-		escreva("++++++Calcular Soma++++++")
-		escreva("\nEntre com o nome do aluno: ")
+		escreva("++++++Digite respectivamente seu nome, suas notas de trabalhos, suas notas de exercicíos e sua nota de prova. De 0 a 100++++++")
+		escreva("\nDigite seu nome: ")
 		leia(nomeAluno)
-		escreva("\nEntre com a nota total dos exercícios: ")
-		leia(notaExer)
-		escreva("\nEntre com a nota total dos trabalhos: ")
-		leia(notaTrabalho)
-		escreva("\nEntre com a nota total das provas: ")
+		escreva("\nEntre com suas notas de trabalhos: ")
+		leia(notaTrabalhos)
+		escreva("\nEntre com suas notas de exercícios: ")
+		leia(notaExercicios)
+		escreva("\nEntre com suas nota de prova: ")
 		leia(notaProva)
-		media = (notaExer + notaTrabalho + notaProva)/3
-
-		se (media < 4){
-			escreva("\n O aluno ", nomeAluno ," com média: ", media, " está reprovado")
-		}senao se (media >= 4 e media < 7){
-			escreva("\n O aluno ", nomeAluno ," com média: ", media, " está em recuperação")	
-		}senao {
-			escreva("\n O aluno ", nomeAluno ," com média: ", media, " está aprovado")
-		}
-		
+		media = (notaTrabalhos + notaExercicios + notaProva)/30
 	}
 		
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 528; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */

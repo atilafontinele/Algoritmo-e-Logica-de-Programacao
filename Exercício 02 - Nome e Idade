@@ -12,7 +12,7 @@ programa
 		escreva("\nDigite sua idade: ")
 		leia(idadePessoa)
     
-    escreva("\nresultado, sua idade atual é de , idadePessoa)
+    escreva("\nSeu nome é ,resultado, e sua idade atual é de , idadePessoa , anos)
     
 	}
 		

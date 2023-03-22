@@ -6,13 +6,13 @@ programa
 		cadeia nomePessoa
 		inteiro idadePessoa
 
-		escreva("++++++Digite respectivamente seu nome e sua idade.++++++")
+		escreva("Digite respectivamente seu nome e sua idade.")
 		escreva("\nDigite seu nome: ")
 		leia(nomePessoa)
 		escreva("\nDigite sua idade: ")
 		leia(idadePessoa)
     
-    escreva("\nSeu nome é ,resultado, e sua idade atual é de , idadePessoa , anos)
+    escreva("\nSeu nome é ", nomePessoa , " e você tem ", idadePessoa , " anos.")
     
 	}
 		

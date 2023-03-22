@@ -14,7 +14,7 @@ programa
 		leia(n2)
 		Resultado = n1+n2
 
-		escreva("\nTotal:", resultado)
+		escreva("\nO resultado da soma é:", resultado)
 		
 	}
 }

@@ -9,16 +9,19 @@ programa
 		inteiro notaProva
 		real media
 
-		escreva("++++++Digite respectivamente seu nome, suas notas de trabalhos, suas notas de exercicíos e sua nota de prova. De 0 a 100++++++")
+		escreva("Digite respectivamente seu nome, suas notas de trabalhos, suas notas de exercicíos e sua nota de prova. De 0 a 100.")
 		escreva("\nDigite seu nome: ")
 		leia(nomeAluno)
-		escreva("\nEntre com suas notas de trabalhos: ")
+		escreva("\nDigite suas notas de trabalhos: ")
 		leia(notaTrabalhos)
-		escreva("\nEntre com suas notas de exercícios: ")
+		escreva("\nDigite suas notas de exercícios: ")
 		leia(notaExercicios)
-		escreva("\nEntre com suas nota de prova: ")
+		escreva("\nDigite suas nota de prova: ")
 		leia(notaProva)
 		media = (notaTrabalhos + notaExercicios + notaProva)/30
+		
+		
+		escreva("\n", nomeAluno , ", você ficou com a média ", media , ".")
 	}
 		
 }

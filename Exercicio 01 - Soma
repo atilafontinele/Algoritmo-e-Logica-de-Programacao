@@ -7,14 +7,14 @@ programa
 		inteiro n2
 		inteiro resultado
 
-		escreva("++++++Calculadora de soma de dois números++++++")
+		escreva("Calculadora de soma de dois números")
 		escreva("\nDigite o valor do 1° número: ")
 		leia(n1)
 		escreva("\nDigite o valor do 2° número: ")
 		leia(n2)
-		Resultado = n1+n2
+		resultado = n1+n2
 
-		escreva("\nO resultado da soma é:", resultado)
+		escreva("\nO resultado da soma é: ", resultado)
 		
 	}
 }

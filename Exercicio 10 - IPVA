@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio()
+	{
+	
+		real valorVenal
+    inteiro tipoAutomovel
+        
+    escreva("Digite o valor venal do seu veículo:")
+    leia(valorVenal)
+
+		escreva("Digite o código do seu automóvel. \nCarro particular e passeio - 1 \nCaminhonetes e Utilitários - 2 \nMotocicletas e Quadricículos - 3\n")
+		leia(tipoAutomovel)
+
+    se (tipoAutomovel == 1){
+			escreva("\nO valor do seu IPVA é: R$", (valorVenal*0.03))
+		}senao se (tipoAutomovel == 2){
+			escreva("\nO valor do seu IPVA é: R$", (valorVenal*0.02))	
+    }senao se (tipoAutomovel == 3){
+			escreva("\nO valor do seu IPVA é: R$", (valorVenal*0.02))	
+		}senao {
+			escreva("\nVocê digitou um valor errado")
+		}
+  }		
+}

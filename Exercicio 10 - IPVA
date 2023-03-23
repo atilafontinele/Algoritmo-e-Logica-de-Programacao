@@ -11,10 +11,10 @@ programa
 
     escreva("Digite abaixo o código do seu automóvel e o valor venal do mesmo, para calcularmos o valor IPVA.")
 
-    escreva("Digite o código do seu automóvel. \nCarro particular e passeio - 1 \nCaminhonetes e Utilitários - 2 \nMotocicletas e Quadricículos - 3\n")
+    escreva("\nDigite o código do seu automóvel: \nCarro particular e passeio - 1 \nCaminhonetes e Utilitários - 2 \nMotocicletas e Quadricículos - 3\n")
 		leia(tipoAutomovel)
 
-    escreva("Digite o valor venal do seu veículo:")
+    escreva("\nDigite o valor venal do seu veículo:")
     leia(valorVenal)
 
     se (tipoAutomovel == 1){
